@@ -1,13 +1,36 @@
 # 🌾 Sahyog AI
 
-AI-powered multilingual chatbot for cooperative governance, government schemes, agricultural support, financial literacy, and grievance assistance.
+**Multilingual Cooperative Governance & Rural Assistance Chatbot**
 
-## SIH Project
+Sahyog AI is an AI-powered multilingual chatbot designed to help farmers, cooperative society members, PACS members, and other rural stakeholders access and understand information related to:
 
-**Problem Statement:** Multilingual Cooperative Governance & Legal Assistance Chatbot
+- Cooperative governance
+- Cooperative laws and rules
+- Government schemes
+- Agricultural support
+- Crop insurance
+- Financial literacy
+- Grievance assistance
 
-**Organization:** Ministry of Cooperation
+## 🎯 Project Goal
 
-## Project Goal
+The goal of Sahyog AI is to make complex government and cooperative-related information easier to access, understand, and use.
 
-Sahyog AI aims to help farmers, cooperative society members, PACS members, and other rural stakeholders access reliable government and cooperative-related information through a simple multilingual conversational interface.
+Users should be able to ask questions in their preferred language and receive simple, reliable, and actionable guidance.
+
+## 🧠 Core Capabilities
+
+- Multilingual conversational assistance
+- Government and cooperative information
+- AI-powered question answering
+- Knowledge-grounded responses
+- Source/reference-based answers
+- Agricultural and crop-insurance assistance
+- Cooperative governance and legal information
+- Grievance guidance
+
+## 🛠️ Technology
+
+The project is being developed using modern web and AI technologies.
+
+> This project is being developed as a Smart India Hackathon (SIH) prototype.
