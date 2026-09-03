@@ -1,5 +1,9 @@
-import ChatWindow from "./components/ChatWindow";
-
 export default function Home() {
-  return <ChatWindow />;
+  return (
+    <main className="flex min-h-screen items-center justify-center">
+      <h1 className="text-4xl font-bold">
+        Sahyog AI
+      </h1>
+    </main>
+  );
 }
