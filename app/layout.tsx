@@ -1,9 +1,18 @@
 import type { Metadata } from "next";
+import { Geist } from "next/font/google";
 import "./globals.css";
 
+const geist = Geist({
+  subsets: ["latin"],
+});
+
 export const metadata: Metadata = {
-  title: "Sahyog AI",
-  description: "Your Personal Knowledge Intelligence System",
+  title: {
+    default: "Sahyog AI",
+    template: "%s | Sahyog AI",
+  },
+  description:
+    "Sahyog AI is a personal knowledge intelligence system that transforms scattered documents and information into connected, searchable intelligence.",
 };
 
 export default function RootLayout({
@@ -13,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={geist.className}>{children}</body>
     </html>
   );
 }

@@ -1,9 +1,25 @@
+import Features from "@/components/landing/Features";
+import Hero from "@/components/landing/Hero";
+import Navbar from "@/components/layout/Navbar";
+import HowItWorks from "@/components/landing/HowItWorks";
+import About from "@/components/landing/About";
+import CTA from "@/components/landing/CTA";
+import Footer from "@/components/layout/Footer";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center">
-      <h1 className="text-4xl font-bold">
-        Sahyog AI
-      </h1>
-    </main>
+    <>
+      <Navbar />
+
+      <main>
+        <Hero />
+        <Features />
+        <HowItWorks />\
+        <About />
+        <CTA />
+      </main>
+
+      <Footer />
+    </>
   );
 }
